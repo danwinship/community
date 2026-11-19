@@ -746,7 +746,8 @@ For custom resources, these are controlled by the `.spec.names.shortNames` and `
 ### Short-names
 
 Note: Due to unpredictable behavior when short names collide (with each other or with resource types),
-do not add new short names to built-in resources unless specifically allowed by API reviewers. See issues
+do not add new short names to built-in resources unless specifically allowed by API reviewers. Short
+names in custom resources are also strongly discouraged. See issues
 [#117742](https://issue.k8s.io/117742#issuecomment-1545945336) and [#108573](http://issue.k8s.io/108573).
 
 "Short names" listed in discovery may be used by clients as hints to resolve ambiguous user invocations to a single resource.
